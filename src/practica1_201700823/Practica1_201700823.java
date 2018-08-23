@@ -49,9 +49,14 @@ Scanner S= new Scanner(System.in);
                     System.out.println("Ingrese el número de productos: ");
                     numeropro=S.nextInt();
                     System.out.println(numeropro);
+                    System.out.println("AQUI SE MOSTRARA LA BODEGA CON LOS CAMBIOS");
                     break;
                 case 2:
+                    int numerovaciar;
                     System.out.println("Ingrese el número de bodega a vaciar: ");
+                    numerovaciar=S.nextInt();
+                    System.out.println(numerovaciar);
+                    System.out.println("AQUI SE MOSTRARA LA BODEGA CON LOS CAMBIOS");
                     break;
            }
  }while(a!=3);
@@ -60,20 +65,20 @@ Scanner S= new Scanner(System.in);
          case 2: //INICIO TRASLADO DE BODEGA
          System.out.println("adios");
             break;
-         case 3:
+         case 3: //INICIO REABASTECIMIENTO
          System.out.println("por");
             break;
-         case 4:
+         case 4: //INICIO SALIDA DE PRODUCTOS 
          System.out.println("favor");
             break;
-         case 5:
+         case 5: //KARDEX :<
              System.out.println("a");
             break;
-         case 6:
+         case 6: //REPORTES
              System.out.println("b");
             break;
-         case 7:
-             System.out.println("c");
+         case 7: //MOSTRAR BODEGAS 
+             
              break;
          case 8:
              break;
