@@ -75,10 +75,10 @@ Scanner S= new Scanner(System.in);
              System.out.println("a");
             break;
          case 6: //REPORTES
-             System.out.println("b");
+            hola();
             break;
          case 7: //MOSTRAR BODEGAS 
-             
+             mostrar();
              break;
          case 8:
              break;
@@ -88,6 +88,18 @@ Scanner S= new Scanner(System.in);
    
     
     } //hasta aqui
+
+    private static void bodegon() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private static void mostrar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private static void hola() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
         }
 
     
