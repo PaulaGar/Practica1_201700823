@@ -25,7 +25,7 @@ public class bodega {
                                  }
         }*/
 
-  /* Scanner S= new Scanner(System.in);
+  Scanner S= new Scanner(System.in);
        public int[] b1 =new int[5];
        public int[] b2 =new int[5];
        public int[] b3 =new int[5];
@@ -39,12 +39,62 @@ public class bodega {
            ensenar=S.nextInt();
        switch (ensenar){
            case 1:
-       
-       
-       }*/
+               System.out.println("---Bodega 1---");
+               System.out.println("Producto 1: "+b1[0]);
+               System.out.println("Producto 1: "+b1[1]);
+               System.out.println("Producto 1: "+b1[2]);
+               System.out.println("Producto 1: "+b1[3]);
+               System.out.println("Producto 1: "+b1[4]);
+               break;
+       case 2:
+               System.out.println("---Bodega 2---");
+               System.out.println("Producto 1: "+b2[0]);
+               System.out.println("Producto 1: "+b2[1]);
+               System.out.println("Producto 1: "+b2[2]);
+               System.out.println("Producto 1: "+b2[3]);
+               System.out.println("Producto 1: "+b2[4]);
+               break;
+               case 3:
+               System.out.println("---Bodega 3---");
+               System.out.println("Producto 1: "+b3[0]);
+               System.out.println("Producto 1: "+b3[1]);
+               System.out.println("Producto 1: "+b3[2]);
+               System.out.println("Producto 1: "+b3[3]);
+               System.out.println("Producto 1: "+b3[4]);
+               break;
+               case 4:
+               System.out.println("---Bodega 4---");
+               System.out.println("Producto 1: "+b4[0]);
+               System.out.println("Producto 1: "+b4[1]);
+               System.out.println("Producto 1: "+b4[2]);
+               System.out.println("Producto 1: "+b4[3]);
+               System.out.println("Producto 1: "+b4[4]);
+               break;
+               case 5:
+               System.out.println("---Bodega 5---");
+               System.out.println("Producto 1: "+b5[0]);
+               System.out.println("Producto 1: "+b5[1]);
+               System.out.println("Producto 1: "+b5[2]);
+               System.out.println("Producto 1: "+b5[3]);
+               System.out.println("Producto 1: "+b5[4]);
+               break;
+               case 6:
+               System.out.println("---Bodega 6---");
+               System.out.println("Producto 1: "+b6[0]);
+               System.out.println("Producto 1: "+b6[1]);
+               System.out.println("Producto 1: "+b6[2]);
+               System.out.println("Producto 1: "+b6[3]);
+               System.out.println("Producto 1: "+b6[4]);
+               break;
        
        }
-    
+       
+       
+       }
+       
+       public void hola(){
+           System.out.println("hola");}
+       
     }
 
 
