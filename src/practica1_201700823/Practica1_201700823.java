@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package practica1_201700823;
-
 /**
  *
  * @author paula garcía 201700823
@@ -16,8 +15,10 @@ public class Practica1_201700823 {
      */
     @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
-int opcion=0;
+bodega bod= new bodega();
+        int opcion=0;
 Scanner S= new Scanner(System.in);
+
      do{
          System.out.println("----Menu principal---- ");
      System.out.println("1.Datos de prueba");
@@ -45,7 +46,9 @@ Scanner S= new Scanner(System.in);
                     int numerobo=0, numeropro=0;
                     System.out.println("Ingrese el número de bodega: ");
                     numerobo=S.nextInt();
-                    System.out.println(numerobo);
+                   
+                    bod.mostrar();
+                   
                     System.out.println("Ingrese el número de productos: ");
                     numeropro=S.nextInt();
                     System.out.println(numeropro);
@@ -75,10 +78,10 @@ Scanner S= new Scanner(System.in);
              System.out.println("a");
             break;
          case 6: //REPORTES
-            hola();
+            bod.mostrar();
             break;
          case 7: //MOSTRAR BODEGAS 
-             mostrar();
+             bod.mostrar();
              break;
          case 8:
              break;
@@ -89,7 +92,7 @@ Scanner S= new Scanner(System.in);
     
     } //hasta aqui
 
-    private static void bodegon() {
+/*    private static void bodegon() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -99,8 +102,8 @@ Scanner S= new Scanner(System.in);
 
     private static void hola() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-        }
+    }*/
+        }//aquí termina todo
 
     
     
